@@ -1,0 +1,30 @@
+{
+  "name": "my-translation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szk213/my-translation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szk213/my-translation/issues"
+  },
+  "homepage": "https://github.com/szk213/my-translation#readme",
+  "dependencies": {
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1",
+    "playwright": "^1.13.0",
+    "sentence-splitter": "^3.2.2",
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
